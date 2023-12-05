@@ -1,0 +1,9 @@
+{
+    "name": "Dhikr en Ligne",
+    "short_name": "iDikhr",
+    "description": "Description de ton application",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chronometre.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Séance de Dikhr</title>
+    <script>
+        let dureeEnMinutes = 5; // Valeur par défaut
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Séance de Dikhr</h1>
+    <p>Choisissez la durée de la séance :</p>
+    <div class="duree-selection">
+        <button onclick="ajusterDuree(-1)">-</button>
+        <span id="duree">5</span>
+        <button onclick="ajusterDuree(1)">+</button>
+    </div>
+    <button onclick="demarrerChronometre()">Démarrer le Chronomètre</button>
+    <div id="chronometre" class="animated"></div>
+    <div id="hadith"></div>
+</div>
+
+<!-- ... le reste du code ... -->
+
+
+    <script src="script.js"></script>
+    <script src="chronometre.js"></script>
+</body>
+</html>
